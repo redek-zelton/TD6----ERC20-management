@@ -7,7 +7,7 @@
 - it's work
 
 ## ex3_withdrawFromContract()
-- Nope, i don't how the contract Address can be sender
+- it's work
 
 ## ex4_approvedExerciceSolution()
 - it's work => approuve or increaseAllowance
@@ -37,9 +37,12 @@
 - =>TxHash [0xa9baae9e551b4d17ab33854d9327add4bbae5b7fee973bcce345cb5689144d93](https://rinkeby.etherscan.io/tx/0xa9baae9e551b4d17ab33854d9327add4bbae5b7fee973bcce345cb5689144d93)
 - 3) Check your balance with balanceInDeposit
 
+====> Finally it's work
+
 ## ex7_createERC20()
+- it's work
 
 ## ex8_depositAndMint()
-
+- it's work
 ## ex9_withdrawAndBurn()
-- Nope, i don't how the contract Address can be sender
+- it's work
