@@ -46,3 +46,7 @@
 - it's work
 ## ex9_withdrawAndBurn()
 - it's work
+
+## Conclusion du TD
+j'ai généré beaucoup de contrat pour réussir les exos. J'ai vu que mes requires ne répondaient pas aux attentes, alors je les ai mis en commentaire.
+address ETH 0xc20b819365e52f0c1bf4e500b3ad44f517eba32e
