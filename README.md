@@ -10,10 +10,10 @@
 - it's work
 
 ## ex4_approvedExerciceSolution()
-- it's work => approuve or increaseAllowance
+- it's work => approuve or increaseAllowance call function in the main contract (ERC20Claimable)
 
 ## ex5_revokedExerciceSolution()
-- it's work => decreaseAllowance
+- it's work => decreaseAllowance call function in the main contract (ERC20Claimable)
 
 ## ex6_depositTokens()
 ```js
@@ -40,7 +40,7 @@
 ====> Finally it's work
 
 ## ex7_createERC20()
-- it's work
+- it's work call function in the main contract setMinter our DepositContract(ERC20Deposite)
 
 ## ex8_depositAndMint()
 - it's work
