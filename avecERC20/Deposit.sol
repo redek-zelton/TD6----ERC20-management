@@ -53,7 +53,9 @@ contract Deposit {
     /****   EXERCICE 9   ****/
     function withdrawTokens(uint256 amountTowithdraw)public returns(uint256) {
         //require(balanceInDeposit[msg.sender] >= amountTowithdraw,'Withdraw more than the balance');
-        Claimable.transfer(msg.sender, amountTowithdraw); // cannot work here
+        //Claimable.transfer(msg.sender, amountTowithdraw); // can work here
+	Claimable.increaseAllowance(msg.sender,amountTowithdraw);
+	Claimable.transferFrom(address(this),msg.sender,amountTowithdraw);
         initBalance -= amountTowithdraw;
         balanceInDeposit[msg.sender]-=amountTowithdraw;
         // Détruit le nouveau token (burn)
